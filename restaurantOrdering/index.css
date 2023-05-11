@@ -1,0 +1,243 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+}
+ /* FUENTE */
+
+@font-face {
+    font-family: 'partybusiness';
+    src: url('partybusiness.ttf') format('truetype');
+}
+
+/* CONTENEDOR */
+.container {
+    background-color: #b5986d;
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    border: 1px solid #295647;
+    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #132f2a;
+    width: 390px;
+    height: 170px;
+    /*border: 1px solid #295647;*/
+}
+
+/*3 barritas*/
+header i {
+    color: #aa9f80;
+    font-size: 50px;
+    margin: 20px;
+}
+
+header img {
+    /*645 x 460*/
+    width: 200px;
+    height: 143px;
+    margin: 10px;
+    
+}
+
+/* OPCIONES DE COMIDA */
+
+.content {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: #3f3c2c;
+}
+
+.food-options {
+    /*border: 1px solid whitesmoke;*/
+    margin: 10px 10px 0px 10px;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 1px solid #295647;
+    position: relative;
+    display: flex;
+    align-items: center;    
+}
+
+.food-options .fa-regular {
+    position: absolute;
+    left: 80%;
+    height: auto;
+}
+
+.content div img {
+    max-width: 25%;
+    height: auto;
+    margin: 5px;   
+}
+
+.food-desc {
+    padding: 0px;
+    margin: 0px;
+}
+
+.food-desc h2, .food-desc p {
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+.price {
+    font-weight: bold;
+}
+
+.content i {
+    color: #132f2a;
+    font-size: 20px;
+    margin: 20px;
+    padding: 4px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    
+}
+i:hover {
+    cursor: pointer;
+}
+
+
+/* CARRO DE COMPRAS */
+
+.cart {
+    background-color: #debc89;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: none;
+    flex-direction: column;
+    height: 282px;
+    max-height: 282px;
+    /* display: none*/
+}
+
+.cart h1 {
+    display: flex;
+    justify-content: center;
+    font-size:20px;
+    padding-top: 10px;
+    
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    max-height: 35px;
+    padding: 0px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+#orders {
+    max-height: 100px;
+}
+
+#total-price {
+    border-top: 1px solid #295647;
+}
+    
+.remove {
+    color: #565757;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.remove:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#complete-order {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+
+    background-color: #4a7457;
+    color: rgb(206, 234, 223);
+    font-size: 15px;
+    font-weight: bold;
+
+    border:none;
+    border-radius: 5px;
+
+}
+#complete-order:hover {
+    cursor: pointer;
+    background-color: #406a4e;
+    margin-top: 18px;
+    width: 92%;
+    padding: 12px;
+}
+
+/* PAYMENT*/
+
+#payment{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #3f3c2c;
+    background-color: #dfcbad;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 300px;
+    max-height: 280px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+#card-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+}
+
+#card-input input{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #7c8280;
+}
+
+#card-input #pay {
+    margin: 15px 5px 5px 5px;
+    padding: 10px;
+    border: 1px solid #7c8280;
+    background-color: #4a7457;
+    color: rgb(206, 234, 223);
+    font-size: 15px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+
+#card-input #pay:hover {
+    cursor: pointer;
+    background-color: #406a4e;
+}
+
+#order-complete {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #477868;
+    color: rgb(206, 234, 223);
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,123 @@
+/**
+
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+/* Hero Section */
+.hero {
+    font-family: 'Golos Text', sans-serif;
+    background-image: url(images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px -50px;
+    color: #F1FAEE;
+    text-shadow: 3px 3px 0 #1D3557;
+    padding: 15%;
+}
+
+/* title and description */
+
+#title {
+    font-size: 27px;
+    font-weight: 700;
+    background-color: #589c79;
+    border-radius: 10px;
+    border: 2px solid #263348;
+    padding: 12px 20px;
+    margin: 0px auto;
+    max-width: 300px;
+}	
+
+#description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #263348;
+    text-shadow: 0px 0px 0 #1D3557;
+    background-color: #8dcff5;
+    border-radius: 10px;
+    border: 2px solid #263348;
+    padding: 15px 30px;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+
+/* Activities */
+
+.activities {
+    background-color: #57889f;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.activities h3 {
+    font-size: 22px;
+    font-weight: 800;
+    font-style: bold;
+    color: #0c1c34;
+    padding: 10px 0px;
+}
+
+.regiones {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.regiones img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #263348;
+}
+
+.regiones p {
+    padding: 0px 20px;
+    max-width: 300px;
+}
+
+/* Guide section */
+
+.guide {
+    background-color: #216f2d;
+    padding: 20px;
+    margin: 50px auto;
+    color: #ffffff;
+    border-bottom: 8px solid black;
+    border-radius: 8px;
+    display: flex;
+    max-width: 500px;
+    min-width: none;
+
+}
+
+.guide img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #263348;
+    border-radius: 5px;
+    flex-direction: columnn;
+    margin: auto;
+    align-items: left;
+}
+
+#guidetext {
+    padding: 10px 15px;
+    text-shadow: 2px 1px 1px #000000;
+}
+

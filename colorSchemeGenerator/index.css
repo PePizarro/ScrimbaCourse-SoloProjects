@@ -1,0 +1,58 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#get-color {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 1em;
+}
+
+.forms{
+    margin: 0 10px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#colors {
+    display: grid;
+    grid-template-rows: 20em 1em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "color1 color2 color3 color4 color5"
+                         "hex1 hex2 hex3 hex4 hex5";
+
+    width: 40%;
+    margin: 10px auto;
+}
+#hex1 {
+    grid-area: hex1;
+}
+
+.colors {
+    grid-area: class="color1";
+}
+
+#color1 {
+    grid-area: color1;
+}
+#color2 {
+    grid-area: color2;
+}
+#color3 {
+    grid-area: color3;
+}
+#color4 {
+    grid-area: color4;
+}
+#color5 {
+    grid-area: color5;
+}
+

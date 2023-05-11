@@ -1,0 +1,92 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    </head>
+    <body>
+	    <div class="container">
+            <header>
+                <i class="fa-solid fa-bars"></i>
+                <img src="images/prancing-pony.png" alt="prancing pony logo"/>
+            </header>
+            <div class="content">
+                <div class="food-options" id="Burger">
+                    <img src="images/burger.png" alt="burger"/>
+                    <div class="food-desc">
+                        <h2>Lonely Burger</h2>
+                        <p>sl nec ult nisl.</p>
+                        <p>
+                            $<span class="price">5</span>
+                        </p>
+                    </div>
+                    <i class="fa-regular fa-plus" data-add="addBurger""></i>
+                </div>
+
+                <div class="food-options" id="Beer">
+                    <img src="images/pint.png" alt="beer"/>
+                    <div class="food-desc">
+                        <h2>Beer</h2>
+                        <p>sl nec ult nisl.</p>
+                        <p>
+                            $<span class="price">2</span>
+                        </p>
+                    </div>
+                    <i class="fa-regular fa-plus" data-add="addBeer"></i>
+                </div>
+
+                <div class="food-options" id="Bread">
+                    <img src="images/lembas.png" alt="bread"/>
+                    <div class="food-desc">
+                        <h2>Lembas bread</h2>
+                        <p>sl nec ult nisl.</p>
+                        <p>
+                            $<span class="price">15</span>
+                        </p>
+                    </div>
+                    <i class="fa-regular fa-plus" data-add="addBread""></i>
+                </div>
+
+                <!-- CARRO DE COMPRAS -->
+
+                <div class="cart" id="cart">
+                    <h1>Your Order</h1>
+                    <div id="orders">
+                    </div>
+                    <div class="order "id="total-price">
+                        <p>Total price:</p>
+                        
+                    </div>
+
+                    <button id="complete-order">Complete order</button>
+
+                </div>
+                
+            </div>
+
+            <div id="payment">
+                <h3>Enter card details</h3>
+
+                <form id="card-input">
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required="required">
+                    <input type="text" id="card-number" name="card-number" placeholder="Enter your card name" required="required">
+                    <input type="text" id="card-cvv" name="card-cvv" placeholder="Enter your card-cvv" required="required">
+                    <input type="submit" name="Pay" value="Pay" id="pay">
+                </form>
+
+
+            </div>
+
+            <div id="order-complete">
+                
+            </div>
+
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
+

@@ -1,0 +1,109 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* HEADER */
+header {
+    font-size: 0.6rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.title img{
+    margin: 1.2em 2em;
+}
+header .links a{
+    margin-right: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+    height: 45vw;
+    /* width: 100vw; Esto genera el slide */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 250px;
+    max-height: 450px;
+}
+.hero p{
+    font-size: 0.7rem;
+    max-width: 60%;
+
+}
+.hero h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    max-width: 70%;
+}
+
+/* BLOGS */
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+    padding: 1.5em;
+}
+
+.article {
+    background-color: #ffffff;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.article p{
+    font-size: 0.7rem;
+    max-width: 80%;
+}
+.article h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    max-width: 75%;
+    padding: 0;
+}
+.article img {
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+footer{
+    font-size: 0.7rem;
+    color: #dad7d7;
+    background-color: rgb(67, 58, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    
+}
+footer p{
+    margin: 0.3em;
+}
+#footer-title{
+    color: #ffffff;
+    font-weight: bold;
+}

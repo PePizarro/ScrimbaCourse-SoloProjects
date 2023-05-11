@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <div id="get-color">
+            <form id="form">
+            <input type="color" name="color" id="seed-color" placeholder="Enter a color" class="forms" value="#e66465">
+                <select name="schemes" class="forms">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome dark</option>
+                    <option value="monochrome-light">Monochrome light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <input type="submit" value="Get color scheme" class="forms">
+            </form>
+        </div>
+        <div id="colors">
+            <div class="colors" id="color1" style="background-color:7b8d83;"></div>
+            <div class="colors" id="color2" style="background-color:8d2c2c;"></div>
+            <div class="colors" id="color3" style="background-color:317327;"></div>
+            <div class="colors" id="color4" style="background-color:3f4c96;"></div>
+            <div class="colors" id="color5" style="background-color:662f60;"></div>
+            <p id="hex1">#7b8d83</p>
+            <p id="hex2">#8d2c2c</p>
+            <p id="hex3">#317327</p>
+            <p id="hex4">#3f4c96</p>
+            <p id="hex5">#662f60</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

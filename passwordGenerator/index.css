@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+.mainblock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 550px;
+    background: #1F2937;    
+}
+
+h1 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    margin-bottom: 20px;
+
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+
+    /* white */
+    color: #FFFFFF;
+}
+
+#green {
+    color: #4ADF86;
+
+}
+
+#support {
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 210px;
+
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+
+    /* Medium grey */
+    color: #D5D4D8;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 300px;
+
+    background: #10B981;
+    /* shadow/sm */
+    border: 0px;
+    border-radius: 6px;
+
+    font-family: 'Golos Text', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#line {
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+
+    border: 1px solid #2F3E53;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 446px;
+    height: 28px;
+    left: 52px;
+    top: 385px;
+    
+
+    font-family: 'Golos Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+
+    /* Medium grey */
+    color: #D5D4D8;
+}
+
+div.passwords p {
+    font-family: 'Inter', sans-serif;
+    background: #273549;
+    border-radius: 6px;
+    height: 40px; 
+    width: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #55F991;
+
+}
+
+div.passwords p:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
